@@ -52,11 +52,11 @@ class Cliente:
 
 # Ejemplo de uso (esto normalmente estaría en otro archivo o función)
 if __name__ == "__main__":
-    cliente1 = Cliente("Juan", "Pérez", "juan.perez@example.com", "123-456-7890")
-    cliente2 = Cliente("María", "Gómez", "maria.gomez@example.com", "987-654-3210")
+    cliente1 = Cliente("Luis", "Fernandez", "luis.fernandez@gmail.com", "1123456789")
+    cliente2 = Cliente("Juana", "De Arco", "juana.dearco@hotmail.com", "11987654321")
 
     print(cliente1)  # Imprime: Juan Pérez
-    cliente1.actualizar_email("juan.perez.nuevo@example.com")
+    cliente1.actualizar_email("luis.fernandez@hotmail.com")
     cliente1.mostrar_informacion()
 
     print(f"Número total de clientes: {Cliente.num_clientes}")
